@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background: linear-gradient(45deg,rgba(183, 204, 248, 0.717),rgba(7, 43, 127, 0.679)), url('./background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+    color: white;
+    text-decoration:wavy;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: white;
+    font-style: italic;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: lightblue;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+.weather{
+    text-align: center;
+    color: aliceblue;
+    height: 45vh;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 50, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+.next{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    margin: 20px 50px;
+    color: aliceblue;
+    align-items: center;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.cast-header{
+    color: aliceblue;
+    background: rgba(254, 189, 132, 0.539);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}  
+.time,.date{
+    color: rgb(254, 189, 132);
+}
+.desc{
+    color: rgb(196, 255, 77);
+}
